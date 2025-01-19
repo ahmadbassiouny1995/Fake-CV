@@ -1,0 +1,37 @@
+body {
+    font-family: Calibri;
+}
+
+header a{
+    text-decoration: none;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+    min-width: 770px;
+    
+}
+
+#creds-table{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1.5fr;
+    grid-template-rows: max-content;
+    border: 1px solid black;
+}
+.box {
+    margin: 3px;
+    border: 1px solid black;
+    text-align: left;
+    padding: 0 5px;
+}
+
+#peer-reviews {
+    border: 1px solid black;
+    text-align: start;
+}
+
+#peer-reviews td {
+    padding: 0 5px;
+    border: 1px solid black;
+}
